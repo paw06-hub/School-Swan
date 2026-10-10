@@ -31,13 +31,24 @@ module.exports = {
         ICON: '🪙'
     },
     
+    // ═══ MÔN HỌC ═══
+    MON_HOC: {
+        toan: '📐 Toán',
+        van: '📖 Văn',
+        anh: '🌏 Anh',
+        ly: '🔬 Lý',
+        hoa: '🧪 Hóa',
+        sinh: '🧬 Sinh'
+    },
+    
     // ═══ COOLDOWN (ms) ═══
     COOLDOWN: {
         DIEMDANH: 24 * 60 * 60 * 1000,
         HOC: 30 * 60 * 1000,
         BTVN: 60 * 60 * 1000,
         THI: 2 * 60 * 60 * 1000,
-        THUVIEN: 45 * 60 * 1000
+        THUVIEN: 45 * 60 * 1000,
+        DAYHOC: 5 * 60 * 1000
     },
     
     // ═══ ĐIỂM THƯỞNG ═══
@@ -46,7 +57,9 @@ module.exports = {
         HOC: 15,
         BTVN: 20,
         THI: 50,
-        THUVIEN: 25
+        THUVIEN: 25,
+        DAYHOC: 30,
+        CHAMBai: 10
     },
     
     // ═══ TIỀN THƯỞNG ═══
@@ -55,6 +68,7 @@ module.exports = {
         HOC: 150,
         BTVN: 200,
         THI: 500,
-        THUVIEN: 250
+        THUVIEN: 250,
+        DAYHOC: 200
     }
 };
