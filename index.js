@@ -768,12 +768,12 @@ client.on('interactionCreate', async (interaction) => {
             .setDescription(noidung)
             .setFooter({ text: `GV: ${interaction.user.username}` })
             .setTimestamp();
- if        
+        
         return interaction.reply({ embeds: [embed] });
     }
     
     // ═══ /ds-lop ═══
- (commandName === 'ds-lop') {
+    if (commandName === 'ds-lop') {
         if (!isGiaoVien) {
             return interaction.reply({ content: '❌ Chỉ **Giáo viên**!', ephemeral: true });
         }
