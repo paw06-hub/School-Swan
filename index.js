@@ -764,7 +764,7 @@ client.on('interactionCreate', async (interaction) => {
         
         const embed = new EmbedBuilder()
             .setColor(config.COLORS.INFO)
-            .set   Title('📢 THÔNG BÁO TỪ GIÁO VIÊN')
+            .setTitle('📢 THÔNG BÁO TỪ GIÁO VIÊN')
             .setDescription(noidung)
             .setFooter({ text: `GV: ${interaction.user.username}` })
             .setTimestamp();
